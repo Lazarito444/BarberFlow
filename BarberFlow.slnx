@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="BarberFlow.Core.Application/BarberFlow.Core.Application.csproj" Id="7a1b4f5b-d120-43e1-996d-dc0314bce982" />
+    <Project Path="BarberFlow.Core.Domain/BarberFlow.Core.Domain.csproj" Id="f598beba-b649-43c7-b8d5-12382ca617bf" />
+    <Project Path="BarberFlow.Infrastructure.Data/BarberFlow.Infrastructure.Data.csproj" Id="1f934f49-5b8e-4f7e-95fe-8e2c17438357" />
+    <Project Path="BarberFlow.Presentation.Api/BarberFlow.Presentation.Api.csproj" />
+  </Folder>
+</Solution>
