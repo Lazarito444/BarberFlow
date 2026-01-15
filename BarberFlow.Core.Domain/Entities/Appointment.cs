@@ -1,4 +1,6 @@
-﻿namespace BarberFlow.Core.Domain.Entities;
+﻿using BarberFlow.Core.Domain.Enums;
+
+namespace BarberFlow.Core.Domain.Entities;
 
 public class Appointment : BaseEntity
 {
