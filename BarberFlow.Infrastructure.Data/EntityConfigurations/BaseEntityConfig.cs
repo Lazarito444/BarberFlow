@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace BarberFlow.Infrastructure.Data.EntityConfigurations;
 
-public class BaseEntityConfig<TEntity> : IEntityTypeConfiguration<TEntity>
+internal class BaseEntityConfig<TEntity> : IEntityTypeConfiguration<TEntity>
     where TEntity : BaseEntity
 {
     public virtual void Configure(EntityTypeBuilder<TEntity> builder)
