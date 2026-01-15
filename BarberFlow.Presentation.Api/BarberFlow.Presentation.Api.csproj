@@ -15,4 +15,8 @@
     <PackageReference Include="Scalar.AspNetCore" Version="2.12.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BarberFlow.Infrastructure.Data\BarberFlow.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
 </Project>
