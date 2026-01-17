@@ -2,6 +2,8 @@
 
 public class QueryOptions
 {
+    public int PageNumber { get; set; } = 1;
+    public int PageSize { get; set; } = 10;
     public List<FilterDefinition> Filters { get; set; } = [];
     public List<SortDefinition> Sorts { get; set; } = [];
 }
